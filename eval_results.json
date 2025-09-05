@@ -1,0 +1,49 @@
+{
+  "baseline": {
+    "performance": {
+      "total_requests": 4,
+      "success_rate": 1.0,
+      "latency_p50": 8.423747062683105,
+      "latency_p90": 13.103355169296265,
+      "latency_p95": 13.103355169296265,
+      "avg_latency": 9.310792744159698,
+      "error_count": 0,
+      "unique_errors": 0
+    },
+    "accuracy": {
+      "accuracy": 0.5,
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1_score": 0.6666666666666666,
+      "true_positives": 2,
+      "false_positives": 2,
+      "true_negatives": 0,
+      "false_negatives": 0
+    }
+  },
+  "improved": {
+    "performance": {
+      "total_requests": 4,
+      "success_rate": 1.0,
+      "latency_p50": 23.177560091018677,
+      "latency_p90": 27.36669683456421,
+      "latency_p95": 27.36669683456421,
+      "avg_latency": 22.923328697681427,
+      "error_count": 0,
+      "unique_errors": 0
+    },
+    "accuracy": {
+      "accuracy": 0.75,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1_score": 0.8,
+      "true_positives": 2,
+      "false_positives": 1,
+      "true_negatives": 1,
+      "false_negatives": 0
+    }
+  },
+  "timestamp": 1756974714.633721,
+  "test_cases_count": 4,
+  "noisy_cases_count": 1
+}

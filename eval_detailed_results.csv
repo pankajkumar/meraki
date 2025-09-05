@@ -1,0 +1,11 @@
+case_id,variant,latency,success,error,predicted_error,actual_has_error,predicted_has_error,is_noisy
+question_1,baseline,13.103355169296265,True,,The solution contains errors. The main issue is with the equation in line 6. The equation should be ,True,True,False
+question_2,baseline,8.423747062683105,True,,"The math solution is incorrect. The error is in step 4. The value of tan(35°) is not 0.5, it's appro",False,True,False
+question_3,baseline,7.328060865402222,True,,"The solution contains an error at step 5. If x - 2 = 6, then x = 2 + 6, not 2 + 5. So, the correct s",True,True,False
+question_4,baseline,8.388007879257202,True,,"The solution contains several errors. Here's a breakdown:
+
+1) (z + 3)(2̅ + 3) = z*2̅ + 3z + 9 is cor",False,True,True
+question_1,improved,23.177560091018677,True,,Potential missing steps,True,True,False
+question_2,improved,19.53414297103882,True,,No error found,False,False,False
+question_3,improved,21.614914894104004,True,,Algebraic errors (incorrect operations) and Sign errors,True,True,False
+question_4,improved,27.36669683456421,True,,"Arithmetic mistakes (wrong calculations), Algebraic errors (incorrect operations), and Conceptual misunderstandings",False,True,True
